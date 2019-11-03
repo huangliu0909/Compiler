@@ -1,0 +1,19 @@
+P->S
+S->int E
+S->double E
+S->E = C
+S->E = C op E
+S->E = E op E
+op->+
+op->*
+C->CONST
+S->if J S else S
+S->do ( S ) while J
+J->E f E
+f->>
+f-><
+E->IDN
+S->B
+B->E F
+F->++
+F->--

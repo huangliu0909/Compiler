@@ -1,0 +1,10 @@
+int a #
+int b #
+int c #
+int d #
+int x #
+double y #
+int z #
+y = 0.1 #
+d = 5 #
+do ( if c < d x = 1 + z else x = a + b ) while a < b #
